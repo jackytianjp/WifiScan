@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 扫码连 Wi-Fi 的图标（自适应图标前景层）：二维码取景框 + Wi-Fi 波纹 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 二维码：左上 / 右上 / 左下 三个定位角（带中心挖空） -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M34,34 h14 v14 h-14 z M37,37 h8 v8 h-8 z" />
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M60,34 h14 v14 h-14 z M63,37 h8 v8 h-8 z" />
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M34,60 h14 v14 h-14 z M37,63 h8 v8 h-8 z" />
+    <!-- 右下角散点 = 数据区 -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M60,60 h6 v6 h-6 z M70,60 h6 v6 h-6 z M60,70 h6 v6 h-6 z" />
+
+    <!-- Wi-Fi 波纹：叠在右下，表示「连上」 -->
+    <path android:strokeColor="#5FD3F3" android:strokeWidth="4"
+        android:strokeLineCap="round" android:fillColor="#00000000"
+        android:pathData="M64,86 a22,22 0 0 1 22,-22" />
+    <path android:strokeColor="#5FD3F3" android:strokeWidth="4"
+        android:strokeLineCap="round" android:fillColor="#00000000"
+        android:pathData="M70,90 a14,14 0 0 1 14,-14" />
+    <path android:fillColor="#5FD3F3"
+        android:pathData="M80,92 m-4,0 a4,4 0 1 0 8,0 a4,4 0 1 0 -8,0" />
+</vector>

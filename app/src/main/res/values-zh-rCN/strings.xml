@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">扫码连Wi-Fi</string>
+    <string name="hud_hint">单击:重扫   双击:退出</string>
+</resources>
